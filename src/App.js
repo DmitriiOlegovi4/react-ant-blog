@@ -1,24 +1,46 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Layout,} from 'antd';
+
+import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
+
+import AppHeader from './components/common/header';
+import AppAbout from './pages/about';
+import AppContact from './pages/contact';
+import AppFaq from './pages/faq';
+import AppHome from './pages/home';
+import AppShop from './pages/shop';
+import FooterWidget from './components/common/footerWidget';
+import CopyRight from './components/common/footerCopyright';
+
+
+const { Header, Footer, Content } = Layout;
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+		<div className ="App">
+			<Layout>
+				<Router>
+					<Header><AppHeader/></Header>
+				<Content>
+					<Routes>
+						<Route path ='/about' element={<AppAbout/>}/>
+						<Route path ='/contact' element={<AppContact/>}/>
+						<Route path ='/FAQ' element={<AppFaq/>}/>
+						<Route path ='/home' element={<AppHome/>}/>
+						<Route path ='/shop' element={<AppShop/>}/>
+					</Routes>
+				</Content>
+				</Router>
+				
+				<Footer>
+					<FooterWidget/>
+					<CopyRight/>
+				</Footer>
+    </Layout>
+		</div>
   );
 }
 
