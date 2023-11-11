@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Layout,} from 'antd';
+import { Layout, } from 'antd';
 
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 
@@ -23,17 +23,20 @@ function App() {
 		<div className ="App">
 			<Layout>
 				<Router>
+				
 					<Header><AppHeader/></Header>
 				<Content>
 					<Routes>
+						
+						<Route path ='/react-ant-blog' element={<AppHome/>}/>
 						<Route path ='/about' element={<AppAbout/>}/>
 						<Route path ='/contact' element={<AppContact/>}/>
 						<Route path ='/FAQ' element={<AppFaq/>}/>
 						<Route path ='/home' element={<AppHome/>}/>
 						<Route path ='/shop' element={<AppShop/>}/>
+						
 					</Routes>
 				</Content>
-				
 				</Router>
 				
 				<Footer>
