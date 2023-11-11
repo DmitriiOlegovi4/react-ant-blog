@@ -33,6 +33,7 @@ function App() {
 						<Route path ='/shop' element={<AppShop/>}/>
 					</Routes>
 				</Content>
+				<AppHome/>
 				</Router>
 				
 				<Footer>
