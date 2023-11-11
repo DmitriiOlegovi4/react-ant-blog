@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-ant-blog/static/css/main.efc70031.css",
-    "main.js": "/react-ant-blog/static/js/main.4d80ae82.js",
+    "main.js": "/react-ant-blog/static/js/main.a96b3c7e.js",
     "static/js/787.856a2c82.chunk.js": "/react-ant-blog/static/js/787.856a2c82.chunk.js",
     "static/media/aboutBanner.jpg": "/react-ant-blog/static/media/aboutBanner.fb337f685b524a93a5ea.jpg",
     "static/media/banner-img3.jpg": "/react-ant-blog/static/media/banner-img3.e1dfb4ee62430dd335d8.jpg",
@@ -29,11 +29,11 @@
     "static/media/img15.jpg": "/react-ant-blog/static/media/img15.01e94e55c32921ef7883.jpg",
     "index.html": "/react-ant-blog/index.html",
     "main.efc70031.css.map": "/react-ant-blog/static/css/main.efc70031.css.map",
-    "main.4d80ae82.js.map": "/react-ant-blog/static/js/main.4d80ae82.js.map",
+    "main.a96b3c7e.js.map": "/react-ant-blog/static/js/main.a96b3c7e.js.map",
     "787.856a2c82.chunk.js.map": "/react-ant-blog/static/js/787.856a2c82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.efc70031.css",
-    "static/js/main.4d80ae82.js"
+    "static/js/main.a96b3c7e.js"
   ]
 }
